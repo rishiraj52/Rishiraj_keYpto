@@ -1,0 +1,238 @@
+* {
+  font-family: Montserrat, sans-serif;
+}
+
+body {
+  background: #000;
+  background-repeat: no-repeat;
+  background-size: auto;
+  color: aliceblue;
+  font-family: Montserrat, sans-serif;
+}
+
+navbar {
+  background-color: transparent;
+  width: 100%;
+  transition: background-color 0.3s ease-in-out;
+  display: flex;
+  justify-content: space-around;
+}
+
+navbar .logo {
+  font-size: 1.5rem;
+  font-family: Montserrat, sans-serif;
+  font-weight: 600;
+  margin-top: 2rem;
+}
+
+.links div {
+  padding-top: 0.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: aliceblue;
+  padding: 0.25rem 0.75rem 0rem 0.75rem;
+}
+
+.links {
+  display: flex;
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+}
+
+button {
+  font-weight: 600;
+  padding: 12px 18px 12px 18px;
+  color: aliceblue;
+  border-radius: 2rem;
+  background-color: #8b8dfc;
+  margin-left: 2rem;
+  margin-top: 1rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  border: none;
+}
+
+button:hover{
+  cursor:pointer;
+}
+
+.content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.left {
+  display: flex;
+  line-height: 1;
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
+  margin-top: 6%;
+  margin-left: 5%;
+}
+
+.texts {
+  font-size: 3rem;
+  margin-top: 3rem;
+}
+
+.textb {
+  font-size: 11px;
+  font-weight: 100;
+  font-style: normal;
+  color: rgb(255, 255, 255);
+  margin: 2rem;
+}
+
+.section2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.section2 div {
+  font-weight: 900;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.section2 .boxouter {
+  padding: 1rem 2.2rem;
+}
+
+.section2 .boxp {
+  background: #8b8dfc;
+  font-size: 1rem;
+  font-weight: 100;
+  padding: 1rem;
+  border-radius: 0.4rem;
+  transition: all 0.3s ease;
+}
+
+.section2 .boxp:hover {
+  background-image: url("images/comingSoon.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.section2 .left2,
+.section2 .right2 {
+  transition: all 0.5s ease;
+}
+
+.section3 div {
+  display: flex;
+  justify-content: center;
+  margin-top: 8rem;
+}
+
+.section4 div {
+  display: flex;
+  justify-content: space-around;
+  margin: 2.5rem 0rem 10rem 0rem;
+}
+
+.section4 div img {
+  height: 100%;
+  width: 60%;
+  transition: all 0.5s ease;
+}
+
+.section4 .banners .box1,
+.section4 .banners .box2,
+.section4 .banners .box3 {
+  transition: all 0.5s ease;
+}
+
+.section5 div {
+  display: flex;
+  justify-content: center;
+}
+
+.section5 .process {
+  margin: 3rem;
+}
+
+.section6 div {
+  display: flex;
+  justify-content: space-around;
+  margin: 5rem 0rem 2.5rem 0rem;
+}
+
+.section7 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 20px;
+  row-gap: 1rem;
+  column-gap: 10.5rem;
+  margin-bottom: 5rem;
+}
+
+.cards1,
+.cards2,
+.cards3,
+.cards4,
+.cards5 {
+  padding: 2rem;
+  width: 250px;
+  transition: all 0.5s ease;
+}
+
+.cards1:hover,
+.cards2:hover,
+.cards3:hover,
+.cards4:hover,
+.cards5:hover,
+.section4 .banners .box1:hover,
+.section4 .banners .box2:hover,
+.section4 .banners .box3:hover,
+.section2 .left2:hover,
+.section2 .right2:hover {
+  transform: scale(1.05);
+}
+
+.section8 {
+  background-image: url(images/bgFooter.png);
+  background-repeat: no-repeat;
+  display: flex;
+  margin-top: 8rem;
+  flex-direction: column;
+}
+
+.section8 .top {
+  display: flex;
+  justify-content: space-between;
+  margin: 10rem;
+}
+
+.section8 .left3 {
+  display: flex;
+}
+
+.footerheading {
+  font-size: 1.4rem;
+  font-weight: 700;
+  font-family: Montserrat, sans-serif;
+}
+
+.footersub {
+  margin: 1rem 2rem;
+}
+
+.footerlinks a div {
+  font-size: 1.1rem;
+  font-weight: 400;
+  margin-top: 0.2rem;
+}
+
+.right3 {
+  display: flex;
+  flex-direction: column;
+}
+.footright {
+  margin-left: 0.8rem;
+}
+
+.socials {
+  margin-top: 1rem;
+}
